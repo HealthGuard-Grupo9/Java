@@ -1,7 +1,7 @@
 # Java - HealthGuard
 
 
-<h1>Repositório para guardar nossos Scripts de captura de dados dos componentes das máquinas de despacho em Python</h1>
+<h1>Repositório para guardar nossos Scripts de captura de dados com Java e do projeto de cada integrante na console</h1>
 
 <h2>Sobre o Projeto</h2>
 <p>Este projeto é dedicado ao monitoramento de peças vitais de máquinas de despacho que fazem parte do sistema DAC (Despacho Assistido por Computador).</p>
