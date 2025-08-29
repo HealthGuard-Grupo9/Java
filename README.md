@@ -1,6 +1,4 @@
-# Java
-
-# Python - HealthGuard
+# Java - HealthGuard
 
 
 <h1>Repositório para guardar nossos Scripts de captura de dados dos componentes das máquinas de despacho em Python</h1>
