@@ -20,19 +20,19 @@
 <p>O site oferece as seguintes funcionalidades:</p>
 <ul>
     <li>
-        <strong>Funcionalidade 1:</strong> Lorem ipsum.
+        <strong>Funcionalidade 1:</strong> Organizar projetos individuais
     </li>
     <li>
-        <strong>Funcionalidade 2:</strong> Lorem ipsum.
+        <strong>Funcionalidade 2:</strong> Testes e desenvolvimento colaborativo
     </li>
     <li>
-        <strong>Funcionalidade 3:</strong> Lorem ipsum.
+        <strong>Funcionalidade 3:</strong> Controle de versões do código da equipe
     </li>
     <li>
-        <strong>Funcionalidade 4:</strong> Lorem ipsum.
+        <strong>Funcionalidade 4:</strong> Organização por pastas e projetos
     </li>
     <li>
-        <strong>Funcionalidade 5:</strong> Lorem ipsum.
+        <strong>Funcionalidade 5:</strong> Planejamento e atribuição de tarefas
     </li>
 
 </ul>
