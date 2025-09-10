@@ -10,24 +10,24 @@ public class Main {
 
         List<String> tarefas = new ArrayList<>();
 
+
         Scanner leitor = new Scanner(System.in);
 
 
         while (true) {
-            System.out.println("------------------------------------------");
-            System.out.println(" HealthTask — simplificando sua rotina. ");
-            System.out.println("------------------------------------------");
-            System.out.println("1 - Ver tarefas");
-            System.out.println("2 - Cadastrar tarefa");
-            System.out.println("3 - Excluir tarefa");
-            System.out.println("0 - Sair");
-            System.out.println("------------------------------------------");
+            System.out.println("-".repeat(46));
+            System.out.println("-".repeat(46));
+            System.out.println("  HealthTask — Simplificando sua rotina.   ");
+            System.out.println("-".repeat(46));
+            System.out.println("| 1 - Ver tarefas                            |");
+            System.out.println("| 2 - Cadastrar tarefa                       |");
+            System.out.println("| 3 - Excluir tarefa                         |");
+            System.out.println("| 0 - Sair                                   |");
+            System.out.println("-".repeat(46));
             System.out.print("Digite: ");
 
+            Integer numero = leitor.nextInt();
 
-
-
-            int numero = leitor.nextInt();
             leitor.nextLine();
 
 
@@ -49,16 +49,19 @@ public class Main {
 
 
             }
+
+
             else if (numero == 2) {
 
                 System.out.print("Digite a tarefa: ");
 
                 String tarefa = leitor.nextLine();
 
-                tarefas.add(tarefa);
 
+                tarefas.add(tarefa);
                 System.out.println("Tarefa cadastrada!");
             }
+
 
             else if (numero == 3) {
 
@@ -71,14 +74,15 @@ public class Main {
 
                     for (int i = 0; i < tarefas.size(); i++) {
 
+
                         System.out.println((i + 1) + " - " + tarefas.get(i));
                     }
 
                     System.out.print("Digite o número da tarefa: ");
+                    Integer numeroTarefa = leitor.nextInt();
 
-                    int numeroTarefa = leitor.nextInt();
 
-                    leitor.nextLine();
+
 
                     if (numeroTarefa >= 1 && numeroTarefa <= tarefas.size()) {
 
@@ -93,7 +97,8 @@ public class Main {
             } else if (numero == 0) {
                 System.out.println("Encerrando...");
                 break;
-            } else {
+            }
+            else {
                 System.out.println("Por favor, escolha uma opção válida!");
             }
         }
